@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="First Category"
+		android:key="first_category">
+		<EditTextPreference android:key="age" android:title="Age" android:defaultValue="30"/>
+		<EditTextPreference android:key="weight" android:title="Weight" android:defaultValue="100"/>
+		<ListPreference 
+			android:key="gender"
+			android:title="Gender"			
+			android:defaultValue="Male" 
+			android:entries="@array/gender"
+		    android:entryValues="@array/genderValues"
+				/>	
+	</PreferenceCategory>
+</PreferenceScreen>

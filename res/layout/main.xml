@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/ButtonConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect" />
+
+            <Button
+                android:id="@+id/ButtonDisconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disconnect" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Max"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Maximum Heart Rate"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelMax"
+                
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ChronoText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time Elapsed"
+                android:textSize="20sp" />
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chronometer" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/HRTextBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Current Heart Rate"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelHeartRate"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Calories"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calories"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelCalories"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+                <TextView
+                android:id="@+id/Average"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Average Heart Rate"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelAverage"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/StatusTextBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Status Message"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/labelStatusMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_weight="1"
+            android:text="Status Message Box" />
+
+    </TableLayout>
+
+</RelativeLayout>

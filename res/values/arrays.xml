@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="age" type="integer"/>
+    <item name="weight" type="integer"></item>
+
+    <string-array name="gender">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+    </string-array>
+    <string-array name="genderValues">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+    </string-array>
+
+</resources>
